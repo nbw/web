@@ -1,0 +1,45 @@
+{{ define "main" }}
+  <article>
+    <div id="projects"></div>
+    {{- .Content -}}
+  </article>
+{{ end }}
+
+{{ define "scripts"}}
+  <script src="/js/be.js" integrity="sha384-JEvEVuluUeJQMFj5OxXTfvUQfsjHKzNConM1t0AG4nKRnW7Abn8aO/0BTnOVjevh" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+
+  		function createProjectTile(image_link, name, project_link){
+  			var contents = document.createElement("div"), title  = document.createElement("a");
+
+  				title.setAttribute("href", project_link);
+  				title.innerHTML = name;
+  				contents.setAttribute("class", "contents");
+  				contents.appendChild(title);
+
+  			var container = document.createElement("div")
+
+  				container.setAttribute('style', "background-image: url(" + image_link + ");");
+  				container.appendChild(contents);
+
+  			return container;
+  		}
+
+ 			be({{ .Site.Params.flickr_api_key }})
+ 			.user.projects("nathanwillson", "").then(
+ 				function success(results) {
+ 					var el = document.getElementById("projects");
+ 					var projects = results.projects;
+
+ 					for(i = 0; i < projects.length; i++){
+ 						el.appendChild(createProjectTile(
+ 							projects[i].covers[404],
+ 							projects[i].name,
+ 							projects[i].url
+ 						));
+ 					}
+   			}, function failure(error) {
+     			console.error(error);
+   			});
+  </script>
+{{ end }}

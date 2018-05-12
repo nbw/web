@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <article>
+  <main>
+    {{- .Content -}}
+  </main>
+    <section>
+      {{ range .Paginator.Pages }}
+        <div>
+        	{{ .Title }}:{{ humanize .Section }}
+
+        </div>
+      {{ end }}
+    </section>
+  </article>
+{{ end }}

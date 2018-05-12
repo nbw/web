@@ -1,0 +1,18 @@
+header * {
+	dislay: inline-block;
+	vertical-align: middle;
+	padding: 5px;
+}
+
+header a, header a:visited, header a:link, header a:hover, header a:active{
+	text-decoration: none;
+	color: #1f1f1f;
+}
+
+header .logo {
+	max-height: 4rem;
+}
+header .title {
+	font-size: 3rem;
+	font-weight: 300;
+}

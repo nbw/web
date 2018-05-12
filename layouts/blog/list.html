@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<article>
+  {{- .Content -}}
+</article>
+
+{{ range first 10 .Data.Pages }}
+  {{ if eq .Type "blog"}}
+    {{ .Render "summary" }}
+  {{ end }}
+{{ end }}
+
+{{ end }}

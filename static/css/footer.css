@@ -1,0 +1,32 @@
+footer {
+	margin: 30px auto 30px auto;
+}
+
+footer ul {
+	display: inline-block;
+	list-style-type: none;
+	vertical-align: top;
+	padding-left: 5px;
+	padding-right: 30px;
+}
+
+footer ul li {
+	color: #a6a6a6;
+	padding: 2px;
+}
+
+footer ul li a {
+	text-decoration: none;
+}
+
+footer ul li a:visited, footer ul li a:active, footer ul li a:link {
+	color: #a6a6a6;
+}
+
+footer ul li a:hover, #email:hover {
+	color: #737373;
+}
+
+footer ul li.title {
+	color: black;
+}

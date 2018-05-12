@@ -1,0 +1,20 @@
+#music .album {
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#music .album > * {
+	display: inline-block;
+	height: 600px;
+}
+
+#music h1 {
+	font-size: 3rem;
+}
+
+#music .videos { text-align: center; }
+#music .videos > * {
+	display: inline-block;
+	padding: 40px;
+}

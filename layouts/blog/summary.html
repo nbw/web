@@ -1,0 +1,27 @@
+<div class="summary-item">
+    <label class="title">
+      <a href="{{ .URL }}">
+        {{ .Title }}
+      </a>
+    </label>
+    {{ if .Date }}
+      <div class="date">
+        {{ .Date.Format "January 2, 2006" }}
+      </div>
+    {{ end }}
+    <p>
+      {{ .Params.Description }}
+    </p>
+
+
+    {{ if .Params.Tags }}
+    <div class="tags">
+      {{ $tags := (.Params.Tags) }}
+      {{ $len := (len $tags) }}
+      tags:
+      {{ range $index, $element := $tags }}
+        {{ . }}{{ if ne (add $index 1) $len }},{{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+</div>

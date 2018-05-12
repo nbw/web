@@ -1,0 +1,31 @@
+#design #projects > * {
+	width: 404px;
+	height: 316px;
+	display: inline-block;
+	margin: 3px 6px 3px 0;
+}
+
+#design #projects .contents {
+	display: table;
+	opacity: 0;
+	background: rgba(0, 0, 0, .6);
+	height: 100%;
+	width: 100%;
+	-webkit-transition: opacity .26s;
+	transition: opacity .26s;
+}
+
+#design #projects .contents a {
+	color: white;
+	font-size: 1.6rem;
+	display: table-cell;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+#design #projects .contents:hover {
+	opacity: 1;
+}

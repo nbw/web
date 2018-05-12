@@ -1,0 +1,48 @@
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+
+{{/* fit for browsing on mobile devices and PC,
+  see : https://ziyuan.baidu.com/college/courseinfo?id=156
+*/}}
+<meta name="applicable-device" content="pc,mobile">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+{{/* Add to homescreen for Chrome on Android */}}
+<meta name="mobile-web-app-capable" content="yes">
+
+<!-- author & description & keywords  -->
+{{- if or .Params.author .Site.Author.name -}}
+<meta name="author" content="{{ if .Params.author }}{{ .Params.author | safeHTML }}{{ else }}{{ .Site.Author.name | safeHTML }}{{ end }}" />
+{{- end -}}
+
+{{- if .Description -}}
+  <meta name="description" content="{{ .Description | safeHTML }}" />
+{{ else if .IsPage }}
+  <meta name="description" content="{{ .Summary | plainify }}" />
+{{ else if .Site.Params.description }}
+  <meta name="description" content="{{ .Site.Params.description | safeHTML }}" />
+{{- end -}}
+
+<!-- Permalink & RSSlink -->
+<link rel="canonical" href="{{ .Permalink }}" />
+{{ if .RSSLink }}
+  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+{{ end }}
+
+<!-- Site Generator -->
+<meta name="generator" content="Hugo {{ .Hugo.Version }}" />
+
+<!-- Stylesheets -->
+{{ range .Site.Params.css -}}
+<link rel="stylesheet" href="{{ . | absURL }}">
+{{- end }}
+
+
+<!-- Font -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon">

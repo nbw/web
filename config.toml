@@ -1,0 +1,24 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Nathan Willson"
+disqusShortname = "nathanwillson-com"
+
+[params]
+    flickr_api_key = "wGUikc8jnw6pbeqsvfSRMKkXzyjVpjF0"
+    twitter_handle = "_nathanbw"
+	email = "contact@nathanwillson.com"
+	logo = "/images/logo.png"
+    css  = [
+    	"css/base.css",
+    	"css/main.css",
+    	"css/blog.css",
+    	"css/music.css",
+    	"css/design.css",
+    	"css/header.css",
+    	"css/footer.css"
+    ]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"

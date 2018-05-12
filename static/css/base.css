@@ -1,0 +1,39 @@
+html {
+	font-size:62.5%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 300;
+	color: #1f1f1f;
+	text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  margin-left: 25px;
+  /*max-width: 1400px;*/
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #c6c6c6;
+}
+
+a, a:hover, a:visited, a:link, a:active {
+	text-decoration: none;
+	color: #1f1f1f;
+}
+
+p a {
+	font-weight: 500;
+}
+
+p a:hover {
+	text-decoration: underline;
+}
+
+h1, h2, h3, strong {
+	font-weight: 500;
+}

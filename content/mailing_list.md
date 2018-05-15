@@ -1,6 +1,7 @@
 ---
 title: "Mailing List"
 description: "mailing list"
+date: "2018-05-15"
 ---
 
 <!-- Begin MailChimp Signup Form -->

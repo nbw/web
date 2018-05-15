@@ -25,11 +25,14 @@
 	<li id="email" onclick="showEmail()">Email</li>
 </ul>
 
-{{ if eq .CurrentSection.Title "blog"}}
-<ul>
-	<li class="title">Mailing List</li>
-	<li><a href="/mailing_list">Mailing List</a><li>
-</ul>
+
+{{ if .CurrentSection }}
+	{{ if eq .CurrentSection.Title "blog"}}
+	<ul>
+		<li class="title">Follow</li>
+		<li><a href="/mailing_list">Mailing List</a><li>
+	</ul>
+	{{ end }}
 {{ end }}
 
 <script>

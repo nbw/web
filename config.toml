@@ -2,6 +2,7 @@ baseURL = "http://nathanwillson.com/"
 languageCode = "en-us"
 title = "Nathan Willson"
 disqusShortname = "nathanwillson-com"
+googleAnalytics = "UA-119252446-1"
 
 [params]
     flickr_api_key = "wGUikc8jnw6pbeqsvfSRMKkXzyjVpjF0"
@@ -22,3 +23,4 @@ disqusShortname = "nathanwillson-com"
   category = "categories"
   series = "series"
   tag = "tags"
+

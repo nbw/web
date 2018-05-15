@@ -38,6 +38,11 @@ main .feature .contents:hover {
 	opacity: 1;
 }
 
+#about img {
+	width: 100%;
+	max-width: 525px;
+}
+
 @media only screen and (max-width: 375px) {
 
   main .feature {

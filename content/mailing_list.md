@@ -7,9 +7,8 @@ date: "2018-05-15"
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+	#mc_embed_signup{background:#fff; clear:left; font-size:1.3rem; font-family: 'Roboto', sans-serif; max-width: 500px; }
+	#mc_embed_signup .optional { color: #9f9f9f; font-size: 1.2rem;}
 </style>
 <div id="mc_embed_signup">
 <form action="https://nathanwillson.us18.list-manage.com/subscribe/post?u=2b928e67ee35a9e3783344985&amp;id=61873379d4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -22,15 +21,15 @@ date: "2018-05-15"
 	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 </div>
 <div class="mc-field-group">
-	<label for="mce-FNAME">First Name </label>
+	<label for="mce-FNAME">First Name <span class="optional">(optional)</span></label>
 	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
 </div>
 <div class="mc-field-group">
-	<label for="mce-LNAME">Last Name </label>
+	<label for="mce-LNAME">Last Name <span class="optional">(optional)</span></label>
 	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
 </div>
 <div class="mc-field-group">
-	<label for="mce-MMERGE6">Interest in the mailing list? </label>
+	<label for="mce-MMERGE6">Interest in the mailing list? <span class="optional">(optional)</label>
 	<select name="MMERGE6" class="" id="mce-MMERGE6">
 	<option value=""></option>
 	<option value="Programming">Programming</option>

@@ -27,6 +27,7 @@
 	color: #7f7f7f;
 }
 
+
 /************************/
 /* Single post stylings */
 #blog .single {
@@ -89,4 +90,10 @@
 #blog .single .post-footer p{
 	margin-top: 4rem;
 	margin-bottom: 4rem;
+}
+
+@media only screen and (max-width: 375px) {
+	#blog .summary-item:not(:last-child) {
+		border-bottom: 1px solid #EFEFEF;
+	}
 }

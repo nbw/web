@@ -18,3 +18,16 @@
 	display: inline-block;
 	padding: 40px;
 }
+
+@media only screen and (max-width: 375px) {
+
+ 	#music .album .artwork {
+ 		width: 300px;
+ 		height: 300px;
+ 	}
+
+ 	#music .videos {
+ 		display: none;
+ 	}
+
+}

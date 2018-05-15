@@ -29,3 +29,16 @@
 #design #projects .contents:hover {
 	opacity: 1;
 }
+
+@media only screen and (max-width: 375px) {
+
+	#design #projects > * {
+		width: 100%;
+		min-height: 250px;
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin: 3px 0px 3px 0;
+	}
+
+
+}

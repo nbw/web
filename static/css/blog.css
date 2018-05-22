@@ -1,3 +1,7 @@
+#blog b {
+	font-weight: 500;
+}
+
 #blog .summary-item {
 	border-style: solid;
 	border-width: 0px;
@@ -60,9 +64,8 @@
 #blog .single h3,
 #blog .single h4 {
 	margin-bottom: 0;
-	margin-top: 3rem;
+	margin-top: 4rem;
 }
-
 
 
 #blog .single p,
@@ -90,6 +93,15 @@
 #blog .single .post-footer p{
 	margin-top: 4rem;
 	margin-bottom: 4rem;
+}
+
+#blog .single hr {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#blog .single a:hover {
+	text-decoration: underline
 }
 
 @media only screen and (max-width: 375px) {

@@ -4,6 +4,10 @@
   		{{ if .Date }}
       <div class="date">
         {{ .Date.Format "January 2, 2006" }}
+        {{ $read_time := div .WordCount .Site.Params.avg_wpm | math.Ceil }}
+        {{ if gt $read_time 0 }}
+         · {{ $read_time }} min read
+        {{ end }}
       </div>
     	{{ end }}
       {{- .Content -}}

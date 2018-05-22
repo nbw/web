@@ -18,6 +18,7 @@ googleAnalytics = "UA-119252446-1"
     	"css/header.css",
     	"css/footer.css"
     ]
+  avg_wpm = 180.0
 
 [taxonomies]
   category = "categories"

@@ -1,5 +1,5 @@
 ---
-title: "Spoken Languages: How to Memorize Effectively"
+title: "Learning Languages: How to Memorize Effectively"
 date: 2018-05-16T10:09:09-07:00
 Description: "Don't waste your time when studying"
 Tags: [study, languages, japanese]
@@ -20,9 +20,19 @@ draft: true
     .center {
     	text-align: center;
     }
+
+    #anki img {
+      width: 30%; padding-left: 1%;
+      padding-right: 1%;
+    }
+    #anki {
+      text-align: center;
+      padding-top: 4rem;
+      padding-bottom: 2rem;
+    }
 </style>
 
-Memorization is one of the worst parts, in my opinion, about learning a language. Unfortunately to a large extent it's unavoidable, but there a few things you can do to make your efforts worthwhile.
+Memorization is one of the worst parts, in my opinion, about learning a spoken language. Unfortunately to a large extent it's unavoidable, but there a few things you can do to make your efforts worthwhile.
 
 The greatest bit of advice I've received, from my father, when it comes to language study and memorization is:
 
@@ -43,10 +53,13 @@ Typical procedure is to cover one side of the page while you guess the other sid
 
 To put it in another way, <u>be mindful of when something has entered long term memory or is still in your short term memory</u>.
 
-So what's the solution?
+What you _could_ do instead:
 
-1. Review the ones you know well later and less frequently than the ones you're struggling with
+1. Review what you know well less frequently than the ones you're struggling with
+
 2. You'll probably need to make a new list of words that are only in your short term memory
+
+3. Don't forget to review old lists, as a refresher
 
 This sounds tedious right? I agree; making new lists over and over again takes a lot time and mental energy.
 
@@ -69,17 +82,34 @@ A cue card (or flashcard) system would be much easier. You can reorder cards by 
 
 By now you might be thinking "but wait, isn't it year two thousand and something and everything is digital--- oh right my phone!"
 
-Look at you, so on point. The answer to your prayers is [ANKI LINK](), a cue card app that lets one choose when to be reminded next. Honestly it's so simple it's brilliant.
+Look at you, so on point. The answer to your prayers is [Anki](https://apps.ankiweb.net/), a cue card app that lets one choose when to be reminded next. Honestly it's so simple it's brilliant.
 
-You can make your own decks and/or use ones that people have already created. As an example, I've like to mention [NihongoShark's Japanese kanji deck](https://nihongoshark.com/learn-kanji/), which has been one of the best things I've ever used:
+You can make your own decks and/or use ones that people have already created. As an example, I've like to mention [NihongoShark's Japanese kanji deck](https://nihongoshark.com/learn-kanji/), which has been one of the best things I've ever used. Here's something I've been reviewing recently:
 
-[ photos ]
+<div id="anki">
+  <img src="/images/anki_plain.png"></img>
+  <img src="/images/anki_reveal.png"></img>
+  <img src="/images/anki_edit.png"></img>
+</div>
+<div class="center">from left to right: unrevealed card, revealed cue card, editing a card</div>
 
-Undoubtebly there are other flashcard apps out there that do something similar.
+NihongoShark has a really in-depth _how to use this deck_ that I won't go into, but for the sake of this post the important image to pay attention to is the middle one. At the bottom there are four buttons:
+
+<p class="center">10 minutes, 10 days, 25 days, and 1.2 months</p>
+
+Whichever button I choose will determine when I'll review the card next. As I do better or worse, the time span will widen.
+
+### So what's so great about this?
+
+We're leveraging technology to do the tedious organizing and tracking. The cards you spend time reviewing are mostly things you've been working on recently with a sprinkle of those which you've commited to long term memory. It's excellent.
+
+Undoubtebly there are tons of other flashcard apps out there. I've just picked one of them that I use personally. In fact, [here](https://en.wikipedia.org/wiki/List_of_flashcard_software)'s a list.
 
 # Conclusion
 
 There are a lot of tools and study methods out there that help, but the principle is the most important. **<u>Don't waste your time reinforcing what you already know</u>**. Break things down into short and long term memory and be mindful of what is actually valueable. It might be tedious at first to develop a system, but I guarantee that you'll amortize your efforts tenfold in the long run.
+
+Hopefully at a minimum this post has highlight or brought awareness to some of the If you found this post useful, please share it.
 
 
 ---
@@ -88,3 +118,4 @@ There are a lot of tools and study methods out there that help, but the principl
 ### References
 - [Cue card image](http://premedcommunity.com/the-best-flashcard-app-for-pre-med-students/)
 - [Nihongo Shark's Learning Kanji](https://nihongoshark.com/learn-kanji/)
+- [Wikipedia comparison of flashcard programs](https://en.wikipedia.org/wiki/List_of_flashcard_software)

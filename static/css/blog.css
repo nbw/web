@@ -8,6 +8,8 @@
 	padding: 15px;
 	-webkit-transition: border-left 0.22s linear;
 	transition: border-left 0.22s linear;
+	-webkit-transition-timing-function: ease-in;
+	transition-timing-function: ease-in;
 }
 
 #blog .summary-item:nth-child(4n)     { border-color: #BEFEEB; }

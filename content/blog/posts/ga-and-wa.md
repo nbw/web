@@ -43,7 +43,7 @@ draft: false
 
 **Difficulty Level**: Intermediate-ish
 
-If there's one particle that's always stumped me, it's が. They way I've always used it is by memorizing set phrases like:
+If there's one particle that's always stumped me, it's が. The way I've always used it is by memorizing set phrases like:
 
 「 TOPIC 」が　＋　あります。
 
@@ -77,7 +77,7 @@ The main function of は is to mark the _topic_ of a sentence. That's _topic_, n
 
 A topic that takes は should be either:
 
-1. **Established explicitly beforehand.**
+1. **Established explicitly beforehand**
 
     + 今日、 男の人<span class="jp">が</span>学校に来ました。彼<span class="jp">は</span>ピザを持って来ました。
     + kyou, otoko no hito <span class="en">ga</span> gakkou ni kimashita. kare <span class="en">wa</span> piza o mottekimashita.
@@ -106,7 +106,7 @@ A topic that takes は should be either:
 4. **Pronouns that are identifiable through context (again, inference)**
 
     + それ<span class="jp">は</span>彼の自転車です。
-    + sore <span class="en">ha</span> kare no jitennsha desu
+    + sore <span class="en">wa</span> kare no jitennsha desu
     + That is his bike.
 
     "This" can be conveyed by physically pointing or indicating something. We can infer it contextually.
@@ -120,7 +120,7 @@ A topic that takes は should be either:
 
     Oranges, well -- they're oranges.
 
-These are the general uses of は, though there are many more like emphasis and/or contrast.
+These are the general uses of は, although there are many more like emphasis and/or contrast.
 
 ---
 
@@ -134,7 +134,7 @@ The particle が has a few uses, but they're all related to the subject. Here's 
 
 3. Is used as the subject in subordinate clauses (dependent clauses)
 
-4. Is use for the direct object in conditional phrases (が instead of を)
+4. Is used for the direct object in conditional phrases (が instead of を)
 
 
 
@@ -208,13 +208,13 @@ This is where it gets interesting.
     **Example #1:**
 
     + ミカン<span class="jp">は</span>美味しいです。
-    + mikan <span class="en">wa</span> oishiidesu
+    + mikan <span class="en">wa</span> oishii desu.
     + Mandarin oranges are tasty.
 
     In the case of は, the question being answered might be _"What do you think of oranges?"_
 
     + ミカン<span class="jp">が</span>美味しいと思います。
-    + mikan <span class="en">ga</span> oishiitomoimasu.
+    + mikan <span class="en">ga</span> oishii to omoimasu.
     + I think mandarin oranges are tasty.
 
     In the case of が, the question being answered might be _"What fruit do you think is tasty?"_
@@ -240,7 +240,7 @@ This is where it gets interesting.
 2. **Subordinate (dependent) clauses**
 
     + マイケル<span class="jp">は</span>ケーキを作ったので、お皿とフォークを持って来た。
-    + maikeru <span class="en">wa</span> kēki o tsukuttanode, osara to fōku o mottekita.
+    + maikeru <span class="en">wa</span> kēki o tsukuttanode, osara to fōku o motte kita.
     + Michael, since he made a cake, brought plates and forks.
 
     There are a few possible interpretations when using が:
@@ -267,7 +267,7 @@ The difference between が and は is subtle. They're both related to the topic/
 
 Things to remember:
 
-+ **"は directs the hearer's attention to what follows [afterwards]." Whereas が directs the "hearer's attention to what precedes."**
++ **"は directs the hearer's attention to what follows [afterwards]," whereas が directs the "hearer's attention to what precedes."**
 
 + **が establishes a subject, whereas は highlights something about the topic.**
 

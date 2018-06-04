@@ -100,7 +100,7 @@ A topic that takes は should be either:
     + kanada <span class="en">wa</span> igai ni ookii kuni desu.
     + _Canada is a surprisingly big country._
 
-    Canada is an easily reconigizable noun.
+    Canada is an easily recognizable noun.
 
 
 4. **Pronouns that are identifiable through context (again, inference)**
@@ -256,7 +256,7 @@ This is where it gets interesting.
 
     + マイケルがケーキを作ったので、<span class="jp">私は</span>お皿とフォークを持って来た。
 
-    The addition of 私は (watshi ha) clarifies that it was you who brought the cake.
+    The addition of 私は (watshi wa) clarifies that it was you who brought the cake.
 
 
 ---

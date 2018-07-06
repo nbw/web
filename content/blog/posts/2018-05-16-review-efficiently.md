@@ -1,10 +1,10 @@
 ---
-title: "Learning Languages: How to Memorize Effectively"
-date: 2018-05-16T10:09:09-07:00
+title: "Learning Languages: How to Memorize Languages Effectively"
+date: 2018-07-06T10:09:09-07:00
 Description: "Don't waste your time when studying"
 Tags: [study, languages, japanese]
 Categories: [Language]
-draft: true
+draft: false
 ---
 
 <style>
@@ -30,6 +30,21 @@ draft: true
       padding-top: 4rem;
       padding-bottom: 2rem;
     }
+
+    #blog .single hr {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    }
+
+    #blog .single ul li {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    }
+
+    #blog .single ol > li {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    }
 </style>
 
 Memorization is one of the worst parts, in my opinion, about learning a spoken language. Unfortunately to a large extent it's unavoidable, but there a few things you can do to make your efforts worthwhile.
@@ -41,6 +56,16 @@ The greatest bit of advice I've received, from my father, when it comes to langu
 It's that simple, but let's reword it into something a bit more pragmatic:
 
 <p class="quote">Do not give the same amount of attention to what you know well as to what you're still learning.</p>
+
+This post is broken down into three parts:
+
+1. *A Bad Example*
+
+2. *A Good Example*
+
+3. *A Great Example*
+
+---
 
 # A Bad Example
 
@@ -63,6 +88,7 @@ What you _could_ do instead:
 
 This sounds tedious right? I agree; making new lists over and over again takes a lot time and mental energy.
 
+---
 
 # A Good Example
 
@@ -77,6 +103,8 @@ A cue card (or flashcard) system would be much easier. You can reorder cards by 
 * Make as many piles (or levels) as you deem worthwhile (example: review really soon, soon, later, way later)
 
 <img id="cue" src="/images/review_piles.jpg"></img>
+
+---
 
 # A Great Example
 
@@ -104,6 +132,8 @@ Whichever button I choose will determine when I'll review the card next. As I do
 We're leveraging technology to do the tedious organizing and tracking. The cards you spend time reviewing are mostly things you've been working on recently with a sprinkle of those which you've commited to long term memory. It's excellent.
 
 Undoubtebly there are tons of other flashcard apps out there. I've just picked one of them that I use personally. In fact, [here](https://en.wikipedia.org/wiki/List_of_flashcard_software)'s a list.
+
+---
 
 # Conclusion
 

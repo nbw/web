@@ -1,5 +1,5 @@
 ---
-title: "Learning Languages: How to Memorize Languages Effectively"
+title: "Language Learning: How to Memorize Effectively"
 date: 2018-07-06T10:09:09-07:00
 Description: "Don't waste your time when studying"
 Tags: [study, languages, japanese]
@@ -69,12 +69,12 @@ This post is broken down into three parts:
 
 # A Bad Example
 
-Here's an example of a typical vocab study list (I call them hotdog sheets) that I think most people, including myself, were taught in school:
+Here's an example of a typical vocab study list (I call them hot dog sheets) that I think most people, including myself, were taught in school:
 
 <img id="hotdog" src="/images/hotdog.jpg"></img>
 <div class="center">An actual example from my own notes.</div>
 
-Typical procedure is to cover one side of the page while you guess the other side. <b><u>This is bad</u></b>. By the time you've reveiwed this page 10 times, there are certain words or phrases that you know better than others. Yet, you're still spending just as much time and attention studying what you know well as what you don't know at all. Why do that to yourself? I mean, why did I do that to myself?
+Typical procedure is to cover one side of the page while you guess the other side. This works great the first time, but<b><u>the pattern you've setup is bad</u></b>. By the time you've reveiwed this page 10 times, there are certain words or phrases that you know better than others. Yet, you're still spending just as much time and attention studying what you know well as what you don't know at all. Why do that to yourself? I mean, why did I do that to myself?
 
 To put it in another way, <u>be mindful of when something has entered long term memory or is still in your short term memory</u>.
 
@@ -123,7 +123,11 @@ You can make your own decks and/or use ones that people have already created. As
 
 NihongoShark has a really in-depth _how to use this deck_ that I won't go into, but for the sake of this post the important image to pay attention to is the middle one. At the bottom there are four buttons:
 
-<p class="center">10 minutes, 10 days, 25 days, and 1.2 months</p>
+<p class="center">
+  <span style="color: red">10 minutes</span>,
+  <span style="color: blue">10 days</span>,
+  <span style="color: green">25 days</span>, and
+  <span style="color: blue">1.2 months</span></p>
 
 Whichever button I choose will determine when I'll review the card next. As I do better or worse, the time span will widen.
 

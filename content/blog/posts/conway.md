@@ -2,8 +2,8 @@
 title: "Conway's Webcam of Life: HTML5 Canvas, Webcam, and Video Effects"
 date: 2018-07-23T22:30:43-07:00
 Description: "A breakdown of Conway's Webcam of Life"
-Tags: []
-Categories: []
+Tags: ["HTML", "Javascript", "Programming"]
+Categories: ["code" ]
 draft: false
 
 ---

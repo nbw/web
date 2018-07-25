@@ -105,7 +105,7 @@ video.addEventListener('play', function() {
 }, false);
 ```
 
-MediaDevices support list of properties that you can customize such as a _width_, _height_, _frame rate_, _aspect ratio_, etc.. Start with the official [w3c documention](https://w3c.github.io/mediacapture-main/getusermedia.html#constrainable-properties) for more details.
+MediaDevices support a list of properties that you can customize such as _width_, _height_, _frame rate_, _aspect ratio_, etc.. Start with the official [w3c documention](https://w3c.github.io/mediacapture-main/getusermedia.html#constrainable-properties) for more details.
 
 **In my experience, it's better to keep the video stream simple, do any complex image manipuation on a canvas object.** You'll find yourself hitting your head against the wall trying to manipulate the video directly.
 

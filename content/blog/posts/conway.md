@@ -37,7 +37,7 @@ For the sake of simplicity, the entire project was written without any external 
 
 [Conways Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) "is a cellular automaton devised by the British mathematician John Horton Conway in 1970." Yep, I'm quoting wikipedia.
 
-There are a lot of implementations of Conway's Game of Life out there. I'd originally started by writing an implementation in Golang, then finding a more graceful implementation [here](https://golang.org/doc/play/life.go).
+There are a lot of implementations of Conway's Game of Life out there. I'd originally started by writing an implementation in Golang, and afterwards found a more graceful implementation [here](https://golang.org/doc/play/life.go).
 
 To me, **what makes Conway's Game of Life interesting is the initial state** -- and so Conway's Webcam of Life was born.💡
 

@@ -29,7 +29,7 @@ The rewrite I did was from a Sinatra Ruby app to a Phoenix Elixir app
 Ecto (database client for Elixir) likes timestamps(), so moving over to Phoenix required some database migrations. I ran those migrations while still in MySQL, then ported over to Postgres.
 
 # Step 1: Get pgloader
-To convert from MySQL to Postgres I used pgloader, which is a great tool. There's plenty of documentation to sift through and the founder Dimitri seems to be quite active.
+To convert from MySQL to Postgres I used [pgloader](https://pgloader.io/), which is a great tool. There's plenty of documentation to sift through and the founder Dimitri seems to be quite active.
 
 # Step 2: Converting to Postgres
 Create a postgres db to move your MySQL db into. Then to convert use pgloader to convert to Postgres (it sounds easy because it is). Here's an example from pgloader's documentation:
@@ -76,7 +76,7 @@ Now depending on your setup, when you run the \dt command above (in the postgres
 ```
 
 It might still work in your dev environment, but Heroku doesn't like that. What you want is a "public" schema.
-Dimitri, the maintainer of pgloader, addresses the solution here. But to summarize, the easiest (and most maintainable) way is create a .load file:
+Dimitri, the maintainer of pgloader, addresses the solution [here](https://github.com/dimitri/pgloader/issues/645). But to summarize, the easiest (and most maintainable) way is create a .load file:
 
 **my_load_file.load**
 
@@ -116,7 +116,7 @@ If everything checks out then psql into the database, then run `\dt`
 
 # Converting MySQL bigints (aka: casting considerations)
 
-When converting from MySQL to Postgres, pgloader has a number of default cast types. The source code for those defaults is here and there's some documentation here. In my case, converting from MySQL bigint resolved as a numeric, but I'd rather it resolve as a Postgres bigint still. Here's what one of my tables looked like in MySQL:
+When converting from MySQL to Postgres, pgloader has a number of default cast types. The source code for those defaults is [here](https://github.com/dimitri/pgloader/blob/master/src/sources/mysql/mysql-cast-rules.lisp) and there's some documentation ~~here~~. In my case, converting from MySQL bigint resolved as a numeric, but I'd rather it resolve as a Postgres bigint still. Here's what one of my tables looked like in MySQL:
 
 ```
 MySQL:
@@ -148,7 +148,10 @@ Easy fix? You bet. Just a one liner to add to your .load file (the one from Sch
 ```
 CAST
     type bigint to bigint drop typemod;
+
+```
 And here's my final .load file:
+```
 LOAD DATABASE
    FROM mysql://root:mysql@localhost/treelib
    INTO postgresql://localhost/treelib

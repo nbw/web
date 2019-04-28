@@ -3,16 +3,10 @@ title: "about"
 description: "about myself"
 ---
 
-[Code](https://github.com/nbw) and spoken languages.
+► [Code](https://github.com/nbw) and spoken languages.
 
-► Once had a pog collection.
+► Email me if you'd like to see my resume.
 
-► Will work for SoJs, or mesos -- maybe.
-
-► Never saw the end of Reboot and is still bitter about it.
-
-► Uses esoteric references to avoid admitting his age.
-
-Based out of Victoria, BC, Canada.
+► Currently based out of Tokyo, Japan.
 
 ![me](/images/me.png)

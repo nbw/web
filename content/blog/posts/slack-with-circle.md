@@ -17,7 +17,7 @@ In your `.circle/config.yml` file, add the following line to your build:
 - image: stripemock/stripe-mock:latest
 ```
 
-That will pull the lastest docker image for your tests to run against.
+That will pull the latest docker image for your tests to run against.
 
 If for whatever reason you want to test against an older docker tag (I wouldn't ever do this) then you'll find them listed [here](https://hub.docker.com/r/stripemock/stripe-mock).
 

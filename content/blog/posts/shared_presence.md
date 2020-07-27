@@ -35,7 +35,7 @@ Only the socket/process tracking a Presence object can update it, otherwise a `{
 
 Recently I was working on an [agile poker app](https://agile-poka.herokuapp.com/) written with [Elixir](https://elixir-lang.org/)'s  [Phoenix Framework](https://www.phoenixframework.org/) that uses [Presence](https://hexdocs.pm/phoenix/Phoenix.Presence.html#content), [Channels]([Channels docs](https://hexdocs.pm/phoenix/channels.html)), and [LiveView](https://hexdocs.pm/phoenix_live_view/Phoenix.LiveView.html). Users join a room and vote on durations for upcoming tasks in the next sprint (agile stuff).  [The agile poker app GitHub repo is here](https://github.com/nbw/poker/).
 
-<img style="display:block; margin: auto; text-align:center" src="/images/poker.png" />
+<img style="display:block; margin: auto; text-align:center; max-width: 100%;" src="/images/poker.png" />
 
 When a user joins a room they should know the current state of the room (has the game started? what stage is the game at? etc.). The easiest solution for this may be persist the state somewhere in a database, but I wanted a single-session based room where nothing is saved permanently. It occurred to me that I could use Presence to manage the overall state of the game (in addition to each individual user's status).
 

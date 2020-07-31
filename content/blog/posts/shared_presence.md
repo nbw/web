@@ -17,13 +17,13 @@ draft: false
 </style>
 
 
-This post talks about how to use Presence as a sharable state object that all connect users can modify and manage. In a sense, a singleton Presence object.
+This post talks about how to use Presence as a sharable state object that all connect users can modify and manage. In a sense, a singleton Presence object? There's probably a better way to say that. 
 
 ---
 
 
 
-#Problem
+# Problem
 
 Only the socket/process tracking a Presence object can update it, otherwise a `{:error, :nopresence}` will occur.  This is by design, but we can workaround it :).
 
@@ -33,7 +33,7 @@ Only the socket/process tracking a Presence object can update it, otherwise a `{
 
 # Motivation
 
-Recently I was working on an [agile poker app](https://agile-poka.herokuapp.com/) written with [Elixir](https://elixir-lang.org/)'s  [Phoenix Framework](https://www.phoenixframework.org/) that uses [Presence](https://hexdocs.pm/phoenix/Phoenix.Presence.html#content), [Channels]([Channels docs](https://hexdocs.pm/phoenix/channels.html)), and [LiveView](https://hexdocs.pm/phoenix_live_view/Phoenix.LiveView.html). Users join a room and vote on durations for upcoming tasks in the next sprint (agile stuff).  [The agile poker app GitHub repo is here](https://github.com/nbw/poker/).
+Recently, I was working on an [agile poker app](https://agile-poka.herokuapp.com/) written with [Elixir](https://elixir-lang.org/)'s  [Phoenix Framework](https://www.phoenixframework.org/) that uses [Presence](https://hexdocs.pm/phoenix/Phoenix.Presence.html#content), [Channels]([Channels docs](https://hexdocs.pm/phoenix/channels.html)), and [LiveView](https://hexdocs.pm/phoenix_live_view/Phoenix.LiveView.html). Users join a room and vote on durations for upcoming tasks in the next sprint (agile stuff).  [The agile poker app GitHub repo is here](https://github.com/nbw/poker/).
 
 <img style="display:block; margin: auto; text-align:center; max-width: 100%;" src="/images/poker.png" />
 
@@ -96,7 +96,7 @@ pid = Process.whereis(:insert_name_here)
 
 Presence.update(
   pid,
-  topic),
+  topic,
   key,
   state
 )

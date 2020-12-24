@@ -46,8 +46,7 @@
 	padding: 2rem;
 	margin-bottom: 3rem;
 }
-#blog .single pre,
-#blog .single code {
+#blog .single pre {
 	background-color: #EFEFEF;
 }
 

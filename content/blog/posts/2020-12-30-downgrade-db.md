@@ -1,8 +1,8 @@
 ---
 title: "Gigalixir: Upgrading DB Tiers"
-date: 2020-12-30T16:44:49-08:00
+date: 2020-12-29T05:44:49-08:00
 Description: "Quick instructions on how to backup and restore"
-Tags: ["Postgres", "Gigalixir", "Elixir",]
+Tags: ["Postgres", "Gigalixir", "Elixir"]
 Categories: ["code"]
 draft: false
 
@@ -70,9 +70,9 @@ That should dump the file into your local db called "dump_tester". I confirmed t
 
 You can't provision a second DB with Gigalixir while you have an existing one.
 
-| You can only have one database per app because otherwise managing your DATABASE_URL variable would become trickier.
+> You can only have one database per app because otherwise managing your DATABASE_URL variable would become trickier.
 
-(source)[https://gigalixir.readthedocs.io/en/latest/database.html?highlight=backup#how-to-provision-a-free-postgresql-database]
+[(source)](https://gigalixir.readthedocs.io/en/latest/database.html?highlight=backup#how-to-provision-a-free-postgresql-database)
 
 You should follow [the instructions from Gigalixir's docs](https://gigalixir.readthedocs.io/en/latest/database.html?highlight=backup#how-to-delete-a-database), but to summarize:
 

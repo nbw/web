@@ -1,56 +1,55 @@
 <ul>
-	<li class="title">General</li>
-	<li><a href="/">Home</a></li>
-	<li><a href="/about">About</a></li>
-	<li><a href="/blog">Blog</a></li>
-	<li><a href="https://japan.nathanwillson.com/">Japan Blog</a></li>
-	<li><a href="/design">Digital Artwork</a></li>
-	<li><a href="/music">Music</a></li>
+  <li class="title">General</li>
+  <li><a href="/">Home</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="/blog">Blog</a></li>
+  <li><a href="/design">Digital Artwork</a></li>
+  <li><a href="/music">Music</a></li>
 </ul>
 
 <ul>
-	<li class="title">Social</li>
-	<li><a href="https://twitter.com/nathanwillson">Twitter</a></li>
-	<li><a href="https://www.instagram.com/nahtanw/">Instagram</li>
-	<li><a href="https://www.linkedin.com/in/nathan-willson/">LinkedIn</a></li>
-	<li><a href="https://medium.com/@nathanwillson">Medium</a><li>
+  <li class="title">Social</li>
+  <li><a href="https://twitter.com/nathanwillson">Twitter</a></li>
+  <li><a href="https://www.instagram.com/nahtanw/">Instagram</li>
+  <li><a href="https://www.linkedin.com/in/nathan-willson/">LinkedIn</a></li>
+  <li><a href="https://medium.com/@nathanwillson">Medium</a><li>
 </ul>
 
 <ul>
-	<li class="title">Shop</li>
-	<li><a href="https://society6.com/neisan/s?q=popular+wall-art">Artwork Prints</a></li>
+  <li class="title">Shop</li>
+  <li><a href="https://society6.com/neisan/s?q=popular+wall-art">Artwork Prints</a></li>
 </ul>
 
 <ul>
-	<li class="title">Code</li>
-	<li><a href="https://github.com/nbw">Github</a></li>
+  <li class="title">Code</li>
+  <li><a href="https://github.com/nbw">Github</a></li>
 </ul>
 
 <ul>
-	<li class="title">Contact</li>
-	<li id="email" onclick="showEmail()">Email</li>
+  <li class="title">Contact</li>
+  <li id="email" onclick="showEmail()">Email</li>
 </ul>
 
 
 {{ if .CurrentSection }}
-	{{ if eq .CurrentSection.Title "blog"}}
-	<ul>
-		<li class="title">Follow</li>
-		<li><a href="/mailing_list">Mailing List</a><li>
-	</ul>
-	{{ end }}
+  {{ if eq .CurrentSection.Title "blog"}}
+  <ul>
+    <li class="title">Follow</li>
+    <li><a href="/mailing_list">Mailing List</a><li>
+  </ul>
+  {{ end }}
 {{ end }}
 
 <script>
-	function showEmail() {
-		var email = "{{.Site.Params.email}}",
-		el = document.getElementById("email"),
-		a  = document.createElement("a");
+  function showEmail() {
+    var email = "{{.Site.Params.email}}",
+    el = document.getElementById("email"),
+    a  = document.createElement("a");
 
-		a.innerHTML = email;
-		a.setAttribute('href', 'mailto:' + email);
+    a.innerHTML = email;
+    a.setAttribute('href', 'mailto:' + email);
 
-		el.innerHTML = "";
-		el.appendChild(a);
-	}
+    el.innerHTML = "";
+    el.appendChild(a);
+  }
 </script>

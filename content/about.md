@@ -9,4 +9,4 @@ description: "about myself"
 
 ► Currently based out of Tokyo, Japan.
 
-![me](/images/me.png)
+![me](/images/me_2021.jpeg)

@@ -4,6 +4,9 @@ title = "Nathan Willson"
 disqusShortname = "nathanwillson-com"
 googleAnalytics = "UA-119252446-1"
 
+[markup.goldmark.renderer]
+  unsafe= true
+
 [params]
     flickr_api_key = "wGUikc8jnw6pbeqsvfSRMKkXzyjVpjF0"
     twitter_handle = "nathanwillson"

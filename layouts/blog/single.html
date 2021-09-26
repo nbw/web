@@ -1,7 +1,7 @@
 {{ define "main" }}
   <article class="single">
-  		<h1 class="title">{{- .Title -}}</h1>
-  		{{ if .Date }}
+      <h1 class="title">{{- .Title -}}</h1>
+      {{ if .Date }}
       <div class="date">
         {{ .Date.Format "January 2, 2006" }}
         {{ $read_time := div .WordCount .Site.Params.avg_wpm | math.Ceil }}
@@ -9,10 +9,10 @@
          · {{ $read_time }} min read
         {{ end }}
       </div>
-    	{{ end }}
+      {{ end }}
       {{- .Content -}}
       {{ partial "post-footer" .}}
-      {{ template "_internal/disqus.html" . }}
+      <!-- {{ template "_internal/disqus.html" . }} -->
   </article>
 {{ end }}
 

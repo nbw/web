@@ -52,6 +52,12 @@ At the end of the article I'll talk about benchmarking/performance.
 - The implementation should require minimal configuration to add a new region
 - The implementation doesn't interfere with development or testing environments
 
+## Final code
+
+The final code is here:
+[https://github.com/nbw/phoenix-multi-database-example](https://github.com/nbw/phoenix-multi-database-example)
+
+---
 
 ## 0. Table of Contents
 
@@ -71,6 +77,8 @@ At the end of the article I'll talk about benchmarking/performance.
 - [6. Improvements/Optimizations](#6-improvements-optimizations)
   - [Repos Supervision tree](#repos-supervision-tree)
 - [7. Conclusion](#7-conclusion)
+
+---
 
 ## 1. Deploying a Phoenix app to Fly.io
 
@@ -213,6 +221,8 @@ fly pg attach --postgres-app [your cluster name]
 ```
 
 > 💡 VERIFY: Even though we haven't connected the read-replicas to our app, we should still be able to read/write from the primary database.
+
+---
 
 ## 3. Configure Phoenix/Elixir (but really Ecto)
 
@@ -429,6 +439,8 @@ defmodule MyApp.Application do
 end
 ```
 
+---
+
 ## 4. Using a read-replica in code
 
 If you've been following along and created an Accounts context then we can adjust our GET methods to use a read-only replica database. Adjust `list_users` and `get_user` to the following:
@@ -444,6 +456,8 @@ def get_user!(id), do: Repo.replica().get!(User, id)
 ```
 
 That's it! Your app will now read from the read-replica if it's region matches one of your replicas.
+
+---
 
 ## 5. Performance/Benchmarking
 
@@ -510,6 +524,8 @@ ams           3.56 - 163.00x slower +279.25 ms
 
 We can see that connecting to Japan (nrt) is the fastest from my current location, whereas Amsterdam is the slowest (ams).
 
+---
+
 ## 6. Improvements/Optimizations
 
 ### Repos Supervision tree
@@ -517,6 +533,12 @@ We can see that connecting to Japan (nrt) is the fastest from my current locatio
 In this example we’re supervising our main Repo and replica Repos from the top level Application. It would probably make more sense to create a Repos supervision tree that monitors our Repo and replica Repo modules. Then add the Repos supervision tree to our Application supervision tree.
 
 This way we’d then have the opportunity to specify a restart strategy specifically for Repos (probably still one for one). It also just keeps our Application module clean.
+
+### Module Complilation
+
+Calling a function like `compile_replicas` from the Application module is not my favourite solution and I'm sure there is a more appropriate solution.
+
+---
 
 ## 7. Conclusion
 

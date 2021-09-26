@@ -17,16 +17,6 @@ draft: false
   blockquote p {
     margin-top: 0 !important;
   }
-  .hljs[data-lang="bash"] {
-    background-color: #272822;
-    color: white;
-  }
-  code {
-    color: #CC4A55;
-  }
-  code[data-lang="elixir"] {
-    color: white;
-  }
 </style>
 
 ![fly phoenix](/images/fly_phoenix.jpg)

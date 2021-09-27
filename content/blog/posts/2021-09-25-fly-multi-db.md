@@ -377,7 +377,7 @@ defmodule MyApp.Repo.Replicas do
 end
 ```
 
-The add the following to your app's Repo module:
+Then add the following to your app's Repo module:
 
 ```elixir
 # /lib/my_app/repo.ex

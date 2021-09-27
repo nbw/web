@@ -512,7 +512,7 @@ ams           3.56 - 163.00x slower +279.25 ms
 
 ```
 
-We can see that connecting to Japan (nrt) is the fastest from my current location, whereas Amsterdam is the slowest (ams).
+We can see that connecting to a Japan replica (nrt) is the fastest based on my current location, whereas Amsterdam is the slowest (ams).
 
 ---
 

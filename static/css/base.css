@@ -42,6 +42,11 @@ img {
   max-width: 100%;
 }
 
+code {
+  padding: 0.2rem;
+  background-color: #EEE;
+}
+
 @media only screen and (max-width: 375px) {
   body {
   	margin: 10px;

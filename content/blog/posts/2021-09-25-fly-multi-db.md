@@ -532,7 +532,7 @@ Calling a function like `compile_replicas` from the Application module is not my
 
 ## 7. Conclusion
 
-There's still tons of room for improvement and the `compile_replicas` solution is not my favourite, but this article should serve as a proof-of-concept that can be turned into a library eventually.
+There's still tons of room for improvement, but this article should serve as a proof-of-concept that can be turned into a library eventually.
 
 Let's check the goals:
 

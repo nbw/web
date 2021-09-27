@@ -88,13 +88,21 @@
 	margin-bottom: 4rem;
 }
 
+#blog .single .post-footer a{
+  color: #111;
+}
+
 #blog .single hr {
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
 
-#blog .single a:hover {
-	text-decoration: underline
+#blog a {
+  color: #4c99e0;
+}
+
+#blog a:hover, #blog .single a:hover {
+	text-decoration: underline;
 }
 
 @media only screen and (max-width: 375px) {

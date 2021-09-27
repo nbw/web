@@ -403,7 +403,7 @@ In your app's `application.ex` create the modules first, then supervise them. Th
 ```elixir
 defmodule MyApp.Application do
 
-	def start(_type, _args) do
+  def start(_type, _args) do
 	  # Create our replica modules first
     MyApp.Repo.Replicas.compile_replicas()
 
@@ -426,6 +426,7 @@ defmodule MyApp.Application do
     opts = [strategy: :one_for_one, name: MyApp.Supervisor]
     Supervisor.start_link(children, opts)
   end
+
 end
 ```
 

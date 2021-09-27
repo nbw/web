@@ -21,7 +21,7 @@ draft: false
 
 ![fly phoenix](/images/fly_phoenix.jpg)
 
-In this article I'll be using Fly.io to host a Phoenix web app that's connected to multiple Postgres read-replica databases (1 read/write master and a number of read-only replicas). This article assumes that:
+In this article we'll be using Fly.io to host a Phoenix web app that's connected to multiple Postgres read-replica databases (1 read/write master and a number of read-only replicas). This article assumes that:
 
 - You've installed Fly's CLI, authenticated, etc.
 - You're familiar with the Phoenix framework and with Elixir
@@ -479,7 +479,7 @@ end)
 # Note: the ; nil; is just to quell console output of the return value.
 ```
 
-Here's a comparison of regions:
+Here's a comparison of regions when connecting from Japan:
 
 ```bash
 Benchmark suite executing with the following configuration:

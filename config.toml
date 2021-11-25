@@ -18,6 +18,7 @@ googleAnalytics = "UA-119252446-1"
     	"css/blog.css",
     	"css/music.css",
     	"css/design.css",
+    	"css/project.css",
     	"css/header.css",
     	"css/footer.css"
     ]

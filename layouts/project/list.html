@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<article>{{- .Content -}}</article>
+
+<section class="container">
+  {{ range first 10 .Data.Pages }} 
+    {{ if eq .Type "project"}} 
+      {{ .Render "summary" }} 
+    {{ end }} 
+  {{ end }}
+</section>
+
+{{ end }}

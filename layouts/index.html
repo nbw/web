@@ -4,12 +4,6 @@
     {{ .Content }}
 </article>
 
-{{ range .Sections }}
-	{{ if .Params.feature }}
-    {{ partial "feature.html" . }}
-  {{ end }}
-{{ end }}
-
 {{ range .Data.Pages }}
   {{ if .Params.feature }}
     {{ partial "feature.html" . }}

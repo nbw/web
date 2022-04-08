@@ -1,6 +1,6 @@
 ---
 title: "GEMS"
-link: "gems.nathanwillson.com"
+link: "https://gems.nathanwillson.com"
 image: "gems.png"
 date: 2021-10-20T10:09:09-07:00
 Description: ""

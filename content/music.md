@@ -10,8 +10,7 @@ New tunes coming soon......
 
 ----
 
-<h2>Music of circa long-time-ago:</h2>
-
+## Music of circa long-time-ago:
 
 Available on [Bandcamp](https://bigtime.bandcamp.com/), [Spotify](https://open.spotify.com/artist/5ZSIP5EyNpgvCc4BhQp7el), [Apple Music](https://itunes.apple.com/us/artist/big-time-little-china/1005452871) and wherever else you fill your ear holes. Don't forget to high five [Guy Ferrai](https://ih1.redbubble.net/image.418481589.7947/flat,800x800,075,f.jpg) on your way out.
 

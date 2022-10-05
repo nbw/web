@@ -4,6 +4,7 @@ date: 2020-05-26T13:48:09-08:00
 Description: "Using Presence as sharable state"
 Tags: ["Elixir", "Elixir-lang", Phoenix", "Phoenix Framework", "Presence", "LiveView", "Channels"]
 Categories: ["code"]
+banner: "/images/poker.png"
 draft: false
 
 ---
@@ -17,7 +18,7 @@ draft: false
 </style>
 
 
-This post talks about how to use Presence as a sharable state object that all connect users can modify and manage. In a sense, a singleton Presence object? There's probably a better way to say that. 
+This post talks about how to use Presence as a sharable state object that all connect users can modify and manage. In a sense, a singleton Presence object? There's probably a better way to say that.
 
 ---
 

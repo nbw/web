@@ -4,6 +4,7 @@ date: 2018-11-28T16:44:49-08:00
 Description: "A simple CLI tool to get notified when a command is complete - for Mac."
 Tags: ["OSAScript", "Mac", "Apple", "bash", "Programming"]
 Categories: ["code"]
+banner: "/images/lmk_demo.gif"
 draft: false
 
 ---

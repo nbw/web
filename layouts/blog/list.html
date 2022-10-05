@@ -4,7 +4,7 @@
   {{- .Content -}}
 </article>
 
-{{ range first 10 .Data.Pages }}
+{{ range .Data.Pages }}
   {{ if eq .Type "blog"}}
     {{ .Render "summary" }}
   {{ end }}

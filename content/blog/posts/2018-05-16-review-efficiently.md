@@ -3,6 +3,7 @@ title: "Language Learning: How to Memorize Effectively"
 date: 2018-07-06T10:09:09-07:00
 Description: "Don't waste your time when studying"
 Tags: [study, languages, japanese]
+banner: "/images/cue_cards.jpg"
 Categories: [Language]
 draft: false
 ---

@@ -4,6 +4,7 @@ date: 2018-07-23T22:30:43-07:00
 Description: "A breakdown of Conway's Webcam of Life"
 Tags: ["HTML", "Javascript", "Programming"]
 Categories: ["code" ]
+banner: "/images/conway_wireframe.png"
 draft: false
 
 ---

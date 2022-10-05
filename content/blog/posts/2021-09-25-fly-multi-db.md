@@ -4,6 +4,7 @@ date: 2021-09-24T16:44:49-08:00
 Description: "A guide to using Fly's multi-region read-replica DB's with Elixir's Phoenix Framework"
 Tags: ["Elixir", "Phoenix", "Flyio", "Databases"]
 Categories: ["code"]
+banner: "/images/fly_phoenix.jpg"
 draft: false
 ---
 

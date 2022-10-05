@@ -4,6 +4,7 @@ date: 2019-01-08T13:48:09-08:00
 Description: "Reconcile time zone differences, so chatting is easy"
 Tags: ["gastby", "netlify", "javascript", "react", "google maps api", "lambda"]
 Categories: ["code"]
+banner: "/images/whentochat.gif"
 draft: false
 
 ---

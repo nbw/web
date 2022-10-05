@@ -4,6 +4,7 @@ date: 2018-05-29T08:42:46-07:00
 Description: "Understanding when to use particle が vs は"
 Tags: [Japanese]
 Categories: [Language]
+banner: "/images/guide_to_japanese_grammar.jpg"
 draft: false
 
 ---

@@ -106,9 +106,9 @@ Lastly, modify the `mix test` call to use the secrets configure partitions. I've
     run: MIX_TEST_PARTITION=${{ secrets.partition }} mix test --partitions ${{ secrets.partitions }}
 ```
 
-### Call the Resusable Workflow:
+### Call the Resusable Workflow
 
-We can call resuable workflow as many times as we'd like with a script that triggers on pull request (or whatever event).
+We can call resuable workflow as many times as we'd like with a separate script. This time we'll use the pull request trigger.
 
 ```yaml
 # elixir.yaml

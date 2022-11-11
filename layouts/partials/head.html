@@ -40,7 +40,7 @@
 <meta property="twitter:title" content="{{ .Title | safeHTML }}">
 <meta property="twitter:description" content="{{ .Description | safeHTML }}">
 {{ if .Params.banner }}
-  <meta property="twitter:image" content="{{ .Site.BaseURL }}{{.Params.banner}}">
+  <meta property="twitter:image" content="{{ .Params.banner | absURL}}">
 {{ end }}
 
 <!-- Stylesheets -->

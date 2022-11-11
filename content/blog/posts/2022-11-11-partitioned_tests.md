@@ -2,7 +2,7 @@
 title: "Partitioning Elixir Tests with Github Actions"
 date: 2022-11-11T00:44:49-08:00
 Description: "Speed up tests with partitioning"
-Tags: ["Elixir", "Phoenix"]
+Tags: ["Elixir", "Exunit", "Github Actions", "Test"]
 Categories: ["code"]
 banner: "/images/reusable_workflows_banner.png"
 draft: false

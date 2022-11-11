@@ -14,7 +14,7 @@ draft: false
 
 The tests for the app I'm working on take approximately 15-16 minutes. **So, how can we get that number lower?** ⌛
 
-[Faster test execution in Elixir](https://bartoszgorka.com/faster-test-execution-in-elixir) by Bartosz Górka is a great place to start if you're looking for tips. This post specifically is about their 4th recommendation: "partitions."
+[Faster test execution in Elixir](https://bartoszgorka.com/faster-test-execution-in-elixir) by Bartosz Górka is a great place to start if you're looking for tips. This post specifically is about their 4th recommendation: **partitions**.
 
 ## Partition tests
 

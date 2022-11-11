@@ -34,26 +34,25 @@
 
 <!-- Site Generator -->
 <meta name="generator" content="Hugo {{ .Hugo.Version }}" />
-
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="{{ .Permalink }}">
-<meta property="twitter:title" content="{{ .Title | safeHTML }}">
-<meta property="twitter:description" content="{{ .Description | safeHTML }}">
 {{ if .Params.banner }}
-  <meta property="twitter:image" content="{{ .Params.banner | absURL}}">
+  <meta property="twitter:image" content="{{ .Params.banner | absURL}}" />
 {{ end }}
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:url" content="{{ .Permalink }}" />
+<meta property="twitter:title" content="{{ .Title | safeHTML }}" />
+<meta property="twitter:description" content="{{ .Description | safeHTML }}" />
 
 <!-- Stylesheets -->
 {{ range .Site.Params.css -}}
-<link rel="stylesheet" href="{{ . | absURL }}">
+<link rel="stylesheet" href="{{ . | absURL }}" />
 {{- end }}
 
 
 <!-- Font -->
-<link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet" />
 
-<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
 
 {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
   {{ template "_internal/google_analytics_async.html" . }}

@@ -1,5 +1,12 @@
-<div class="feature" style="background-image: url('/images/{{ .Params.feature_image }}')">
-	<div class="contents">
-		<a href="{{ .Permalink }}">{{ .Title }}</a>
-	</div>
+<div
+    class="feature"
+    style="background-image: url('/images/{{ .Params.feature_image }}')"
+>
+    <div class="contents">
+        {{- if .Params.link -}}
+        <a href="{{ .Params.link }}">{{ .Title }}</a>
+        {{ else }}
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        {{- end -}}
+    </div>
 </div>
